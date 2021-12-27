@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		A7132A02274E24C40082F6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A01274E24C40082F6DF /* AppDelegate.swift */; };
 		A7132A04274E24C40082F6DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A03274E24C40082F6DF /* SceneDelegate.swift */; };
-		A7132A06274E24C40082F6DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A05274E24C40082F6DF /* ViewController.swift */; };
-		A7132A09274E24C40082F6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7132A07274E24C40082F6DF /* Main.storyboard */; };
 		A7132A0B274E24C70082F6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7132A0A274E24C70082F6DF /* Assets.xcassets */; };
 		A7132A0E274E24C70082F6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7132A0C274E24C70082F6DF /* LaunchScreen.storyboard */; };
 		A7132A19274E24C80082F6DF /* PasswordCustomRuleTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A18274E24C80082F6DF /* PasswordCustomRuleTutorialTests.swift */; };
 		A7132A23274E24C80082F6DF /* PasswordCustomRuleTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A22274E24C80082F6DF /* PasswordCustomRuleTutorialUITests.swift */; };
 		A7132A25274E24C80082F6DF /* PasswordCustomRuleTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7132A24274E24C80082F6DF /* PasswordCustomRuleTutorialUITestsLaunchTests.swift */; };
+		A747E855275606BD0030B59C /* CompanyKit in Frameworks */ = {isa = PBXBuildFile; productRef = A747E854275606BD0030B59C /* CompanyKit */; };
+		A747E85927560D220030B59C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A747E85827560D220030B59C /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		A71329FE274E24C40082F6DF /* PasswordCustomRuleTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordCustomRuleTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7132A01274E24C40082F6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7132A03274E24C40082F6DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7132A05274E24C40082F6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A7132A08274E24C40082F6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7132A0A274E24C70082F6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7132A0D274E24C70082F6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7132A0F274E24C70082F6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,9 @@
 		A7132A1E274E24C80082F6DF /* PasswordCustomRuleTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordCustomRuleTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7132A22274E24C80082F6DF /* PasswordCustomRuleTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCustomRuleTutorialUITests.swift; sourceTree = "<group>"; };
 		A7132A24274E24C80082F6DF /* PasswordCustomRuleTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCustomRuleTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7132A31274F6B260082F6DF /* PasswordCustomRuleTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordCustomRuleTutorial.entitlements; sourceTree = "<group>"; };
+		A747E8522756062B0030B59C /* CompanyKit */ = {isa = PBXFileReference; lastKnownFileType = text; path = CompanyKit; sourceTree = SOURCE_ROOT; };
+		A747E85827560D220030B59C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A747E855275606BD0030B59C /* CompanyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,7 @@
 				A7132A17274E24C80082F6DF /* PasswordCustomRuleTutorialTests */,
 				A7132A21274E24C80082F6DF /* PasswordCustomRuleTutorialUITests */,
 				A71329FF274E24C40082F6DF /* Products */,
+				A747E853275606BD0030B59C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +102,11 @@
 		A7132A00274E24C40082F6DF /* PasswordCustomRuleTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A747E8522756062B0030B59C /* CompanyKit */,
+				A7132A31274F6B260082F6DF /* PasswordCustomRuleTutorial.entitlements */,
 				A7132A01274E24C40082F6DF /* AppDelegate.swift */,
 				A7132A03274E24C40082F6DF /* SceneDelegate.swift */,
-				A7132A05274E24C40082F6DF /* ViewController.swift */,
-				A7132A07274E24C40082F6DF /* Main.storyboard */,
+				A747E85827560D220030B59C /* Coordinator.swift */,
 				A7132A0A274E24C70082F6DF /* Assets.xcassets */,
 				A7132A0C274E24C70082F6DF /* LaunchScreen.storyboard */,
 				A7132A0F274E24C70082F6DF /* Info.plist */,
@@ -127,6 +131,13 @@
 			path = PasswordCustomRuleTutorialUITests;
 			sourceTree = "<group>";
 		};
+		A747E853275606BD0030B59C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +154,9 @@
 			dependencies = (
 			);
 			name = PasswordCustomRuleTutorial;
+			packageProductDependencies = (
+				A747E854275606BD0030B59C /* CompanyKit */,
+			);
 			productName = PasswordCustomRuleTutorial;
 			productReference = A71329FE274E24C40082F6DF /* PasswordCustomRuleTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -233,7 +247,6 @@
 			files = (
 				A7132A0E274E24C70082F6DF /* LaunchScreen.storyboard in Resources */,
 				A7132A0B274E24C70082F6DF /* Assets.xcassets in Resources */,
-				A7132A09274E24C40082F6DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7132A06274E24C40082F6DF /* ViewController.swift in Sources */,
+				A747E85927560D220030B59C /* Coordinator.swift in Sources */,
 				A7132A02274E24C40082F6DF /* AppDelegate.swift in Sources */,
 				A7132A04274E24C40082F6DF /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7132A07274E24C40082F6DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7132A08274E24C40082F6DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7132A0C274E24C70082F6DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasswordCustomRuleTutorial/PasswordCustomRuleTutorial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VD39N72A69;
@@ -444,7 +450,6 @@
 				INFOPLIST_FILE = PasswordCustomRuleTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasswordCustomRuleTutorial/PasswordCustomRuleTutorial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VD39N72A69;
@@ -472,7 +478,6 @@
 				INFOPLIST_FILE = PasswordCustomRuleTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -624,6 +629,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A747E854275606BD0030B59C /* CompanyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CompanyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A71329F6274E24C40082F6DF /* Project object */;
 }
